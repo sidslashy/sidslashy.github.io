@@ -1,509 +1,256 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Siddharth Sudhakaran</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
 </head>
 
-<body id="page-top" class="index">
-<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
-
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Siddharth Sudhakaran</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#skills">Skills</a>
-                    </li>
-                    
-
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav" style="background: var(--bs-dark);filter: blur(0px);">
+        <div class="container"><a class="navbar-brand" href="#page-top">Siddharth Sudhakaran</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">SKILLS</a></li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container" id="maincontent" tabindex="-1">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/me.png" alt="">
-                    <div class="intro-text">
-                        <h1 class="name">Siddharth</br>Sudhakaran</h1>
-                        <hr class="star-light">
-                        <span class="skills">Generalist Game Programmer</span>
-                    </div>
-                </div>
-            </div>
+    <header class="text-center text-white bg-primary masthead">
+        <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/pixel_me.png">
+            <h1>Siddharth Sudhakaran</h1>
+            <hr class="star-light">
+            <h2 class="font-weight-light mb-0" style="text-align: center;">&nbsp;Game Programmer</h2>
         </div>
     </header>
-
-      <!-- About Section -->
-      <section class="alternate" id="about">
+    <section id="portfolio" class="portfolio">
         <div class="container">
+            <h2 class="text-uppercase text-center text-secondary">Portfolio</h2>
+            <hr class="star-dark mb-5">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-primary">
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-1" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio-games/bingo_bash_icon_scaled.png">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-2" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio-games/sword_break_scaled.png">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-3" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio-games/lnc_icon_scaled.png">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-4" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio-games/rsvp_icon_scaled.png">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-5" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio-games/bbc_icon_scaled.png">
+                    </a></div>
+            </div>
+        </div>
+    </section>
+    <section class="text-white bg-primary mb-0" id="about">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-white">About</h2>
+            <hr class="star-light mb-5">
+            <div class="row">
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead">I have been making video games for a living since 2015. I have experience working on Flash, Unity and WebGL games.<br><br>I have worked on some of the top social casino games in developed from India.</p>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">I also have freelance work experience on some hyper casual games and rapid prototyping of game concepts.<br><br>I would love to collaborate on Game Jams, if you feel like my skill is a good match for your team please feel free to reach out to me.</p>
                 </div>
             </div>
+            <div class="text-center mt-4"></div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary mb-0">SKILLS</h2>
+            <hr class="star-dark mb-5">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p>Hi ! </br>
-                    You can call me Sid.</br>
-                    I'm a game developer so I love making video games as much as I love playing them.
-                    You can mostly find me fiddling around with my laptop playing/making games
-                    or trying to make some weird geeky program!
-                  </br></br>
-                    I'm always on the lookout for new things and would love to make some cool software, so feel free to hit me up if you want to know more
-                    about me!
-                  </br></br></p>
+                <div class="col-lg-3 ms-auto">
+                    <p class="lead" style="text-align: center;font-weight: bold;"><strong>Programming Language</strong><br></p>
+                    <p class="lead" style="text-align: center;"><strong>C#</strong><br>javascript<br>C++<br>ActionScript3</p>
+                </div>
+                <div class="col-lg-3 ms-auto" style="text-align: center;">
+                    <p class="lead" style="font-weight: bold;">Game Engines &amp; Frameworks</p>
+                    <p class="lead">Unity<br>Godot<br>Adobe Flash<br>Cocos2d-JS<br>Three.js<br>Node.js<br><br></p>
+                </div>
+                <div class="col-lg-3 ms-auto">
+                    <p class="lead" style="text-align: center;font-weight: bold;">Dev Support Tools</p>
+                    <p class="lead" style="text-align: center;">Git<br>SVN<br>JIRA<br>Jenkins<br></p>
+                </div>
+                <div class="col-lg-3 ms-auto">
+                    <p class="lead" style="text-align: center;font-weight: bold;">Productivity Skills</p>
+                    <p class="lead" style="text-align: center;">Agile Development<br>Software Design Patterns<br>Unit Testing</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Portfolio Grid Section -->
-    <section class="success" id="portfolio">
+    <footer class="text-center footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-light">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase">Résumé<br></h4>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="downloads/siddharth-resume.pdf" target="_blank"><i class="fa fa-download fa-fw"></i></a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3> Professional Projects  </br> </br> </h3>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase">FIND ME HERE</h4>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="https://www.linkedin.com/in/siddharth-sudhakaran/" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="https://twitter.com/sidslashy" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="https://sidslashy.itch.io/" target="_blank"><i class="fab fa-itch-io fa-fw"></i></a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tropworld.png" class="img-responsive" alt="Cabin">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/lnc.png" class="img-responsive" alt="Slice of cake">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/bbc.jpg" class="img-responsive" alt="Circus tent">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/rsvp.png" class="img-responsive" alt="Game controller">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/vacation_bingo.png" class="img-responsive" alt="Game controller">
-                    </a>
-                </div>
-            </div>
- 
-               
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h3>Game Jams and Personal Projects </br> </br> </h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/sword_break.png" class="img-responsive" alt="Game controller">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/marbles_game.png" class="img-responsive" alt="Slice of cake">
-                        </a>
-                    </div>
-                </div>
-    </section>
-
-
-      <!-- Skills Section -->
-      <section class="alternate" id="skills">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Skills</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-        </div>
-            <div class="row">
-                <div class="container">
-                    <div class="skills">
-                        <div class="col-sm-3 portfolio-item">
-                            <ul>
-                                <li class="li-dec"> <h5> Programming Languages </h5> </li>
-                                <li class="li-dec"> C# </li>
-                                <li class="li-dec"> Javascript </li>
-                                <li class="li-dec"> C++ </li>
-                                <li class="li-dec"> ActionScript3 </li>
-                                <li class="li-dec"> Python </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-3 portfolio-item">
-                            <ul>
-                                <li class="li-dec"> <h5> Game Engines & Frameworks </h5> </li>
-                                <li class="li-dec"> Unity </li>
-                                <li class="li-dec"> Godot </li>
-                                <li class="li-dec"> Cocos2D-js </li>
-                                <li class="li-dec"> Three.js </li>
-                                <li class="li-dec"> Zenject </li>
-                                <li class="li-dec"> Unirx </li>
-                                <li class="li-dec"> Photon </li>
-                                <li class="li-dec"> SFML </li>
-                                <li class="li-dec"> SDL2 </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-3 portfolio-item">
-                            <ul>
-                                <li class="li-dec"> <h5>Dev Support Tools </h5> </li>
-                                <li class="li-dec"> Git </li>
-                                <li class="li-dec"> SVN </li>
-                                <li class="li-dec"> Jira </li>
-                                <li class="li-dec"> Mantis Bug Tracker </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-3 portfolio-item">
-                            <ul>
-                                <li class="li-dec"> <h5> Productivity Skills </h5> </li>
-                                <li class="li-dec"> Design Patterns </li>
-                                <li class="li-dec"> Agile Development </li>
-                            </ul>
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
-    </section>
-    
-
-  
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-
-                    <div class="footer-col col-md-4 col-lg-offset-4">
-                        <h3>Find me here</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://twitter.com/sidslashy" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/siddharth-sudhakaran/" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/sidslashy" class="btn-social btn-outline"><span class="sr-only">GitHub</span><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; sidslashy 2018
-                    </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-4">EMAIL ME AT:</h4>
+                    <p class="lead mb-0"><span>emaiI id: sidslashy@gmail.com<br><br></span></p>
                 </div>
             </div>
         </div>
     </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
+    <div class="text-center text-white copyright py-4">
+        <div class="container"><small>Copyright ©&nbsp;Brand 2021</small></div>
     </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>TropWorld Casino</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/twc_icon.png" class="img-responsive img-centered" alt="">
-                            <ul class="list-unstyled item-details">
-                            <li>Contribution:</br>
-                                    <strong>I was a part of the content development team for this game.</br>
-                                      I have implemented blackjack and several slot games for this project.
-                                    </strong>
-                              </li>
-                              <li></br>Platform:
-                                      <strong> Web Flash </strong>
-                                </li>
-                                <li></br>
-                                    <strong><a href="https://www.tropworld.com/">TropWorld Casino</a>
-                                    </strong>
-                                </li>
-                            </ul>
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="text-center d-block rounded text-white" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">BINGO BASH</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio-games/bingo_bash_icon_scaled.png">
+                                <p class="mb-5">This is one of the top bingo games in the world, and one of the highest-grossing game apps developed from India. I have worked on over 10 mini-games called events, that were released to maintain engagement during festive seasons and complement the bingo rooms.<br>Along with that, I have also worked on a few engagement features most notably the Daily Lucky Draw feature and Piggy Bank System.&nbsp;<br></p><span>Find App here:&nbsp;<a href="https://g.co/kgs/WmSRbc" target="_blank">Game Search</a></span>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Lucky North Casino</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/lnc_icon.png" class="img-responsive img-centered" alt="">
-                            <ul class="list-unstyled item-details">
-                            <li>Contribution:</br>
-                                    <strong>I was a part of the core development team for this game.</br>
-                                    I have implemented several slot machines and reworked the slot engine for this project.</br>
-                                    I have also architected several modules for this project.
-                                    </strong>
-                              </li>
-                              <li></br>Platform:
-                                      <strong> Web Flash </strong>
-                                </li>
-                                <li></br>
-                                    <strong><a href="https://luckynorthcasino.com/">Lucky North Casino</a>
-                                    </strong>
-                                </li>
-                            </ul>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-2">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">SWORD BREAK</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio-games/sword_break_scaled.png">
+                                <p class="mb-5">This game was created as a part of Movie Game Jam 2018, it was my first game jam, and my premier project in the Godot Game engine. We had a team of 3, people from across the globe. Our team consisted of a brilliant artist (who came up with the concept and design) and a sound engineer and me who played the role of the programmer.<br>The theme of the jam was to recreate one of our favorite movie scenes and we recreated the giant skeleton scene from the movie Kubo and the two strings.<br>This game was created in 10 days and was ranked #4 in terms of Game Play and Innovations and an overall rank of #12 out of 116 entries.</p>
+                                <p>Source Code :&nbsp;&nbsp;<a href="https://github.com/sidslashy/SwordBreak" target="_blank">Github Link</a></p>
+                                <p>Download At :&nbsp;&nbsp;<a href="https://shoze.itch.io/sword-break" target="_blank">itch.io</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2><a href="https://www.bestbetcasino.com/">Best Bet Casino</a></h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/bbc_icon.png" class="img-responsive img-centered" alt="">
-                            <ul class="list-unstyled item-details">
-                            <li><strong>Contribution:</strong>
-                              <ul class="list-unstyled item-details">
-                                  <li>I worked in the core development team for this game.</li>
-                                  <li>I have architected several modules for this project.</li>
-                                  <li>I was a part of the team that ported the game to HTML5.</li>
-                              </ul>
-                              </li>
-                              <li>Platform:
-                                      <strong> Web HTML5 </strong>
-                              </li>
-                            </ul>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">LUCKY NORTH CASINO</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio-games/lnc_icon_scaled.png">
+                                <p class="mb-5">Lucky North Casino is a social casino game developed by Ruby Seven Studios. This was one of the first games I've worked on professionally. I started as a content developer primarily making slot machines for this game in Flash, eventually assisting with the porting of the game from ActionScript3 to javascript to provide WebGL support.<br><br>I have worked on several systems of this game such as in-game currency management systems, analytics, level progression systems. This is the game where I first conceptualized a generic slot engine framework, which is used in subsequent casino games to make in-house slot machines, such as the ones in Best Bet Casino.<br></p>
+                                <p>Find the Game Here :&nbsp;<a href="https://luckynorthcasino.com" target="_blank">Lucky North Casino</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>RubySeven Video Poker</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/rsvp_icon.png" class="img-responsive img-centered" alt="">
-                            <ul class="list-unstyled item-details">
-                            <li>Contribution:</br>
-                                    <strong> I have implemented a real time multiplayer poker game for the project.</br>
-                                    I have architected a few modules for this project.
-                                    </strong>
-                              </li>
-                              <li></br>Platform:
-                                      <strong> Web Flash </strong>
-                                </li>
-                                <li></br>
-                                    <strong><a href="https://rubysevenvideopoker.com/">RubySeven Video Poker</a>
-                                    </strong>
-                                </li>
-                            </ul>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">RUBY SEVEN VIDEO POKER</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio-games/rsvp_icon_scaled.png">
+                                <p class="mb-5">This is one of the oldest poker games from Ruby Seven Studios. I played the role of upgrading the legacy code and revamping in-game systems for this project and complete the porting of this project to javascript. I have worked closely with game designers to implement new functions and features as well as revamp the codebase.<br></p><span>Find the Game here:&nbsp;<a href="https://rubysevenvideopoker.com" target="_blank">Ruby Seven Video Poker</a></span>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Sword Break</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/sword_break.png" class="img-responsive img-centered" alt="">
-                            <ul class="list-unstyled item-details">
-                            <li>Contribution:</br>
-                                    <strong> I have developed this game in a span of 10 days as a part of a game jam</br>
-                                    </strong>
-                              </li>
-                              <li></br>Platform:
-                                      <strong> Windows,Mac,Linux </strong>
-                                </li>
-                                <li></br>
-                                    <strong><a href="https://shoze.itch.io/sword-break">Sword Break</a>
-                                    </strong>
-                                </li>
-                            </ul>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-5">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">BEST BET CASINO</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio-games/bbc_icon_scaled.png">
+                                <p class="mb-5">Best Bet Casino is an online social casino game developed by Ruby Seven Studios. I have worked on all phases of this product, from its inception to release to post-release contented updates and even tasks like analytics and RTP simulation systems for the games.&nbsp;<br><br>Some of the key content I had worked for this in this game were multiple slot machines, 2 variants of blackjack game, and integration of video poker into the game. I have also worked on multiple generic features and function and streamlined code usage towards building a generic casino framework.<br></p><span>Find the Game here:&nbsp;<a href="https://www.bestbetcasino.com" target="_blank">Best Bet Casino</a></span>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
             </div>
         </div>
     </div>
-
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
-
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-6">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="portfolio/submarine.png">
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/freelancer.js"></script>
 </body>
 
 </html>
